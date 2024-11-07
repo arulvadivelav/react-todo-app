@@ -32,15 +32,16 @@ function TodoList() {
                 </div>
                 <div className="form-container">
                     <div className="form-field-1">
-                        <form className="">
-                            <input 
-                                className="" 
+                        <form className="form-class">
+                            <div className="form-input" >
+                            <input
                                 type="text" 
                                 value={inputvalue} 
                                 onChange={handleChange} 
                                 placeholder="Enter the task details">
                             </input>
-                            <button className="btn btn-primary" onClick={handleSubmit}>Add ToDo</button>
+                            </div>
+                            <div><button className="btn btn-primary" onClick={handleSubmit}>Add ToDo</button></div>
                         </form>
                     </div>
                     <div className="form-field-2">
